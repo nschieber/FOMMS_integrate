@@ -25,4 +25,5 @@ def monte_1d(x, f, trials):
    b = x[1]
    d = (b - a) *  np.random.rand(1, trials) + a
    y = f(d)
+   print('Test addition')
    return (b-a) * np.sum(y) / trials
