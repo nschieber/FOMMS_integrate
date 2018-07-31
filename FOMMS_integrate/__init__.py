@@ -6,7 +6,7 @@ Group meeting
 # Make Python 2 and 3 imports work the same
 # Safe to remove with Python 3-only code
 from __future__ import absolute_import
-
+from .stochastic import *
 # Add imports here
 from .newton_cotes import *
 
